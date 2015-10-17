@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link th:href="@{/lib/bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
+<link th:href="@{/css/style.css}" rel="stylesheet" />
+<link rel="stylesheet"
+	th:href="@{/lib/font-awesome-4.3.0/css/font-awesome.min.css}" />
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script th:src="@{/lib/bootstrap/js/bootstrap.min.js}"></script>
+</head>
+<body>
+	<div class="container">
+
+		<header class="cabecalho">
+			<div class="area-logo row">
+				<div class="logo">
+					<image class="imagem-logo" th:src="@{/image/escudo-js.png}"></image>
+					<image class="letra-logo" th:src="@{/image/letra-js.png}"></image>
+				</div>
+			</div>
+			<div class="area-menu row">
+				<div class="menu">
+					<ul class="nav nav-tabs">
+						<li role="presentation" class="active"><a href="/"> <span
+								class="glyphicon glyphicon-home"></span> Home
+						</a></li>
+						<li class="no-active" role="presentation"><a href="/sobreNos">Sobre nós</a></li>
+						<li role="presentation" class="dropdown"><a
+							class="dropdown-toggle" data-toggle="dropdown" href="#"
+							role="button" aria-expanded="true"> Nossos Serviços <span
+								class="caret"></span>	
+						</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/servicos/jardinagem">Jardinagem</a></li>
+								<li><a href="/servicos/limpeza">Limpeza e Zeladoria</a></li>
+								<li><a href="/servicos/piscinas">Manutenção de Piscinas</a></li>
+								<li><a href="/servicos/seguranca">Monitoramento e Segurança</a></li>
+								<li><a href="/servicos/recepcao">Recepção e Portaria</a></li>
+							</ul></li>
+						<li class="no-active" role="presentation"><a href="/trabalheConosco">Trabalhe conosco</a></li>
+						<li class="no-active" role="presentation"><a href="/contato">Entre em contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!--CONTEUDO-->
+		<section id="content" layout:fragment="content"></section>
+
+
+		<footer class="rodape row">
+			<div class="rodape-map row">	
+				<div class="col-md-4">
+				<h5>Mapa do site</h5>
+					<ul class="links-rodape list-group">
+						<li class="list-group-item"><a href="#">Home</a></li>
+						<li class="list-group-item"><a href="#">Sobre nós</a></li>
+								<li class="list-group-item"><a href="#">Trabalhe conosco</a></li>
+						<li class="list-group-item"><a href="#">Entre em contato</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h5>Serviços</h5>
+					<ul class="links-rodape list-group">
+						<li class="list-group-item"><a href="/servicos/jardinagem">Jardinagem</a></li>
+						<li class="list-group-item"><a href="/servicos/limpeza">Limpeza e Zeladoria</a></li>
+						<li class="list-group-item"><a href="/servicos/piscinas">Manuntenção de Piscinas</a></li>
+						<li class="list-group-item"><a href="/servicos/seguranca">Monitoramento e Segurança</a></li>
+						<li class="list-group-item"><a href="/servicos/recepcao">Recepção e Portaria</a></li>
+	
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="links-rodape list-group">
+						<li class="list-group-item"><a href="/servicos/jardinagem">Jardinagem</a></li>
+						
+					
+					</ul>
+				</div>
+			</div>
+			<div class="rodape-direitos row">
+				<div class="copyright col-md-12">
+                	COPYRIGHT © 2015 - Js Serviços Terceirizados - Todos os direitos reservados - Desenvolvimento:
+                	<a href="http://www.luzpropria.com.br">Life Jesus</a>
+            	</div>
+	        </div>
+		</footer>
+	</div>
+</body>
+</html>

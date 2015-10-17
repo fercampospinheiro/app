@@ -92,7 +92,7 @@
 	        </div>
 	         <div class="destaque col-md-3">	
 	        	<div class="item jardinagem row">
-	        		<img alt="" src="<spring:url value="/resources/image/jardinagem.png}"/>" class="imagem-jardinagem "/>
+	        		<img alt="" src="<spring:url value="/resources/image/jardinagem.png"/>" class="imagem-jardinagem "/>
 	        		<h3 class="text-center">Jardinagem</h3>
 	        	</div>
 	        </div>

@@ -45,7 +45,7 @@
                     </div>
 	        </div>
                     <div class="form-trabalhe-conosco col-md-12">  
-                    <form role="form" method="post" enctype="multipart/form-data" action="/app/trabalheConosco/enviaCurriculo">
+                    <form role="form" method="post" enctype="multipart/form-data" action="/trabalheConosco/enviaCurriculo">
                         <div class="form-group">
                           <label for="file">Currículo:</label>
                           <input type="file" class="form-control" id="file" name="file"/>

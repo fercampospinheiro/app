@@ -74,7 +74,7 @@
 	                </div>
 	                
 	                <div class="formulario-contato col-md-6" >
-                            <form:form  action="/app/contato/salvar" modelAttribute="contato" class="form-horizontal row" method="post">
+                            <form:form  action="/contato/salvar" modelAttribute="contato" class="form-horizontal row" method="post">
 		                    <fieldset>
 		                        <div class="form-group">
 		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>

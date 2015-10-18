@@ -1,3 +1,3 @@
-# DailyQuiz
+# App 
 
 Olá
